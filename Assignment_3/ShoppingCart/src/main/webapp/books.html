@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Books</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Shop for Books</div>
+        <hr/>
+        <div>
+            <p align="right">[<a href="View.jsp">View Cart</a>]</p>
+        </div>
+        <div>
+            <form action="http://127.0.0.1:8080/ShoppingCart/ShoppingCartServlet" method="post">
+                <input type="checkbox" name="books" value="Java"/>
+                Java<br/>
+                <input type="checkbox" name="books" value="DMDD"/>
+                DMDD<br/>
+                <input type="checkbox" name="books" value="AED"/>
+                AED<br/>
+                <input type="checkbox" name="books" value="PSA"/>
+                PSA<br/>
+                <input type="checkbox" name="books" value="Web Tools"/>
+                Web Tools<br/>
+                <input type="submit" name="submit" value="Add to Cart"/><br/>
+            </form>
+        </div>
+    </body>
+</html>

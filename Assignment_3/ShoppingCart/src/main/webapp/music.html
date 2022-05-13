@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Music</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Shop for CDs</div>
+        <hr/>
+        <div>
+            <p align="right">[<a href="View.jsp">View Cart</a>]</p>
+        </div>
+        <div>
+            <form action="http://127.0.0.1:8080/ShoppingCart/ShoppingCartServlet" method="post">
+                <input type="checkbox" name="music" value="I'm Going to Tell You a Secret by Madonna"/>
+                I'm Going to Tell You a Secret by Madonna<br/>
+                <input type="checkbox" name="music" value="Baby One More Time by Britney Spears"/>
+                Baby One More Time by Britney Spears<br/>
+                <input type="checkbox" name="music" value="Justified by Justin Timberlake"/>
+                Justified by Justin Timberlake<br/>
+                <input type="checkbox" name="music" value="Loose by Nelly Furtado"/>
+                Loose by Nelly Furtado<br/>
+                <input type="checkbox" name="music" value="Gold Digger by Kanye West"/>
+                Gold Digger by Kanye West<br/>
+                <input type="submit" name="submit" value="Add to Cart"/><br/>
+            </form>
+        </div>
+    </body>
+</html>

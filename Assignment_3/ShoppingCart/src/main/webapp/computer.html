@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Shop for Laptops</div>
+        <hr/>
+        <div>
+            <p align="right">[<a href="View.jsp">View Cart</a>]</p>
+        </div>
+        <div>
+            <form action="http://127.0.0.1:8080/ShoppingCart/ShoppingCartServlet" method="post">
+                <input type="checkbox" name="computers" value="Apple"/>
+                Apple<br/>
+                <input type="checkbox" name="computers" value="Asus"/>
+                Asus<br/>
+                <input type="checkbox" name="computers" value="HP"/>
+                HP Pavlion<br/>
+                <input type="checkbox" name="computers" value="Toshiba"/>
+                Toshiba<br/>
+                <input type="checkbox" name="computers" value="Sony vaio"/>
+                Sony Vaio<br/>
+                <input type="submit" name="submit" value="Add to Cart"/><br/>
+            </form>
+        </div>
+    </body>
+</html>

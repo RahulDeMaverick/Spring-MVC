@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcat-users>
+    <!--
+  <role rolename="tomcat"/>
+  <role rolename="role1"/>
+  <user username="tomcat" password="tomcat" roles="tomcat"/>
+  <user username="both" password="tomcat" roles="tomcat,role1"/>
+  <user username="role1" password="tomcat" roles="role1"/>
+-->
+  <role rolename="tomcat"/>
+  <user username="rahul" password="password" roles="tomcat"/>
+    <role rolename="manager-gui"/>
+    <user password="s3cret" roles="manager-gui" username="tomcat"/>
+    <user password="admin" roles="manager-script,admin" username="admin"/>
+</tomcat-users>

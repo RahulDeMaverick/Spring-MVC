@@ -1,0 +1,4 @@
+com/mycompany/bookdatabase/BookController.class
+com/mycompany/bookdatabase/BooksDAO.class
+com/mycompany/bookdatabase/JdbcConnection.class
+com/mycompany/bookdatabase/Books.class
